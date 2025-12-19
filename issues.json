@@ -1,0 +1,121 @@
+﻿[
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1068",
+        "message":  "Remove this unused \"visitRepository\" private field.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java",
+        "line":  63
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1854",
+        "message":  "Remove this useless assignment to local variable \"jdbcPets\".",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetRepositoryImpl.java",
+        "line":  132
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1854",
+        "message":  "Remove this useless assignment to local variable \"pets\".",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetTypeRepositoryImpl.java",
+        "line":  118
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1854",
+        "message":  "Remove this useless assignment to local variable \"visits\".",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcPetTypeRepositoryImpl.java",
+        "line":  127
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S2259",
+        "message":  "A \"NullPointerException\" could be thrown; \"vet\" is nullable here.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVetRepositoryImpl.java",
+        "line":  129
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1854",
+        "message":  "Remove this useless assignment to local variable \"pet\".",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+        "line":  150
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1854",
+        "message":  "Remove this useless assignment to local variable \"petType\".",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+        "line":  151
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1854",
+        "message":  "Remove this useless assignment to local variable \"owner\".",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+        "line":  152
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S2259",
+        "message":  "A \"NullPointerException\" could be thrown; \"pet\" is nullable here.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jdbc/JdbcVisitRepositoryImpl.java",
+        "line":  163
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S125",
+        "message":  "This block of commented-out lines of code should be removed.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/repository/jpa/JpaPetRepositoryImpl.java",
+        "line":  75
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1149",
+        "message":  "Replace the synchronized class \"StringBuffer\" by an unsynchronized one such as \"StringBuilder\".",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/rest/advice/ExceptionControllerAdvice.java",
+        "line":  53
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S6813",
+        "message":  "Remove this field injection and use constructor injection instead.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/security/BasicAuthenticationConfig.java",
+        "line":  23
+    },
+    {
+        "severity":  "CRITICAL",
+        "rule":  "java:S5344",
+        "message":  "Don\u0027t use the default \"PasswordEncoder\" relying on plain-text.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/security/BasicAuthenticationConfig.java",
+        "line":  48
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S6809",
+        "message":  "Call transactional methods via an injected dependency instead of directly via \u0027this\u0027.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/service/ClinicServiceImpl.java",
+        "line":  198
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S6813",
+        "message":  "Remove this field injection and use constructor injection instead.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/service/UserServiceImpl.java",
+        "line":  13
+    },
+    {
+        "severity":  "MAJOR",
+        "rule":  "java:S1118",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "component":  "spring-petclinic-rest:src/main/java/org/springframework/samples/petclinic/util/EntityUtils.java",
+        "line":  33
+    },
+    {
+        "severity":  "BLOCKER",
+        "rule":  "java:S2699",
+        "message":  "Add at least one assertion to this test case.",
+        "component":  "spring-petclinic-rest:src/test/java/org/springframework/samples/petclinic/SpringConfigTests.java",
+        "line":  10
+    }
+]
